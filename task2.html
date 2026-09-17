@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 | Webpage Layout with Div & Float</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="magic-bg">
+        <div class="sparkle s1">⭐</div>
+        <div class="sparkle s2">🌸</div>
+        <div class="sparkle s3">✨</div>
+        <div class="sparkle s4">🌷</div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-brand">Balnur.dev</div>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="tasks.html" style="color: #7e22ce; font-weight: 700;">Task</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <div class="hero-card" style="max-width: 900px; padding: 30px;">
+            
+            <header style="background: #faf5ff; padding: 20px; border-radius: 12px; text-align: center; margin-bottom: 25px; border: 1px solid #e9d5ff;">
+                <h1 style="color: #4a044e; font-family: 'Playfair Display', serif; font-size: 24px; margin-bottom: 5px;">Task 2: Webpage Layout with Div & Float</h1>
+                <p style="color: #7e22ce; font-size: 13px;">Astana IT University • Web Technologies Assignment</p>
+            </header>
+
+            <div style="overflow: hidden; margin-bottom: 25px;">
+                
+                <aside style="float: left; width: 26%; background: #f3e8ff; border: 1px solid #d8b4fe; padding: 20px; border-radius: 12px; min-height: 250px; box-sizing: border-box;">
+                    <h3 style="color: #4a044e; font-size: 15px; margin-bottom: 15px; border-bottom: 2px solid #c084fc; padding-bottom: 8px;">Navigation</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0; font-size: 13.5px;">
+                        <li style="margin-bottom: 10px;"><a href="index.html" style="color: #6b21a8; text-decoration: none;">🏠 Main Page</a></li>
+                        <li style="margin-bottom: 10px;"><a href="tasks.html" style="color: #6b21a8; text-decoration: none; font-weight: bold;">📋 Tasks Hub</a></li>
+                        <li style="margin-bottom: 10px;"><a href="task3.html" style="color: #6b21a8; text-decoration: none;">✨ Task 3 (Tribute)</a></li>
+                        <li style="margin-bottom: 10px;"><a href="task4.html" style="color: #6b21a8; text-decoration: none;">📊 Task 4 (Table)</a></li>
+                    </ul>
+                </aside>
+
+                <section style="float: right; width: 71%; background: #ffffff; border: 1px solid #e9d5ff; padding: 20px; border-radius: 12px; min-height: 250px; box-sizing: border-box; box-shadow: 0 4px 12px rgba(168, 85, 247, 0.04);">
+                    <h2 style="color: #4a044e; font-size: 18px; margin-bottom: 12px;">Layout Structure Description</h2>
+                    <p style="color: #581c87; font-size: 13.5px; line-height: 1.6; margin-bottom: 12px;">
+                        This web page demonstrates a classic two-column layout built strictly using HTML <code style="background: #f3e8ff; padding: 2px 6px; border-radius: 4px; color: #7e22ce;">&lt;div&gt;</code> tags and CSS <code style="background: #f3e8ff; padding: 2px 6px; border-radius: 4px; color: #7e22ce;">float</code> properties. No modern flexbox or grid modules are utilized here, ensuring full compliance with legacy layout requirements.
+                    </p>
+                    <p style="color: #581c87; font-size: 13.5px; line-height: 1.6;">
+                        The left navigation panel is floated to the left with a fixed percentage width, while the primary content section is floated to the right, creating a balanced and structured presentation.
+                    </p>
+                </section>
+
+                <div style="clear: both;"></div>
+            </div>
+
+            <footer style="background: #faf5ff; padding: 15px; border-radius: 12px; text-align: center; border: 1px solid #e9d5ff;">
+                <p style="color: #7e22ce; font-size: 12.5px; font-weight: 500;">
+                    <a href="tasks.html" style="color: #7e22ce; text-decoration: underline;">← Back to Tasks Hub</a> &nbsp;|&nbsp; &copy; 2026 Bazarkul Balnur
+                </p>
+            </footer>
+
+        </div>
+    </main>
+
+</body>
+</html>

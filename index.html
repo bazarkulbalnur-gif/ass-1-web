@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazarkul Balnur | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="magic-bg">
+        <div class="sparkle s1">⭐</div>
+        <div class="sparkle s2">🌸</div>
+        <div class="sparkle s3">✨</div>
+        <div class="sparkle s4">🌷</div>
+        <div class="sparkle s5">⭐</div>
+        <div class="sparkle s6">🌸</div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-brand">Balnur.dev</div>
+        <ul>
+            <li><a onclick="showSection('about')" style="cursor: pointer;">About</a></li>
+            <li><a onclick="showSection('hobbies')" style="cursor: pointer;">Hobbies</a></li>
+            <li><a href="tasks.html">Task</a></li>
+            <li><a onclick="showSection('friends')" style="cursor: pointer;">Friends</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        
+        <section id="about" class="hero-card active-section">
+            <div class="profile-layout">
+                <div class="avatar-column">
+                    <div class="avatar-ring">
+                        <img src="avatar.jpg" alt="Bazarkul Balnur profile picture" class="user-avatar" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500'">
+                    </div>
+                    <div class="status-badge">✨ SE-2529 Student</div>
+                </div>
+
+                <div class="info-column">
+                    <span class="university-tag">Astana IT University</span>
+                    <h1 class="user-name">Bazarkul Balnur</h1>
+                    <p class="user-role">Software Engineering • 2nd Year</p>
+                    
+                    <p class="user-bio">
+                        Second-year Software Engineering student at Astana IT University. Passionate about learning modern web technologies, coding, and creative arts.
+                    </p>
+                    <p class="user-bio">
+                        Welcome to my personal webpage created for Web Technologies assignment. Here you can explore my skills, hobbies, and university projects.
+                    </p>
+
+                    <div class="list-box">
+                        <h3>My Study Goals:</h3>
+                        <ol class="assignment-ol">
+                            <li>Master HTML5 and CSS3 fundamentals</li>
+                            <li>Build responsive and interactive web pages</li>
+                            <li>Publish projects using GitHub Pages</li>
+                            <li>Collaborate effectively on team assignments</li>
+                        </ol>
+                    </div>
+
+                    <div class="list-box">
+                        <h3>Tools & Technologies:</h3>
+                        <ul class="assignment-ul">
+                            <li>Visual Studio Code</li>
+                            <li>GitHub Repository</li>
+                            <li>HTML & CSS</li>
+                            <li>Browser Developer Tools</li>
+                        </ul>
+                    </div>
+
+                    <div class="action-row" style="margin-top: 20px;">
+                        <a href="https://www.instagram.com/balnur_muxankyzy_?stkn=MW1kNTU1ZHZtZGFreg%3D%3D&utm_source=qr" target="_blank" class="instagram-btn">
+                            <svg class="insta-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            <span>Instagram Profile</span>
+                        </a>
+                        <a href="https://astanait.edu.kz" target="_blank" class="secondary-link-btn">AITU Website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="hero-card hidden-section">
+            <div class="info-column full-width">
+                <span class="university-tag">Interests & Passions</span>
+                <h1 class="user-name">My Hobbies</h1>
+                <p class="user-bio">Things I love to do in my free time:</p>
+                
+                <div class="hobbies-grid-large">
+                    <div class="hobby-card-item">
+                        <span class="hobby-icon">🎵</span>
+                        <h3>Playing Dombra</h3>
+                        <p>Enjoying traditional Kazakh melodies and bringing peace through music.</p>
+                    </div>
+                    <div class="hobby-card-item">
+                        <span class="hobby-icon">✍️</span>
+                        <h3>Writing Poems</h3>
+                        <p>Expressing thoughts, emotions, and creativity through verses.</p>
+                    </div>
+                    <div class="hobby-card-item">
+                        <span class="hobby-icon">📚</span>
+                        <h3>Reading Books</h3>
+                        <p>Exploring fiction and self-development literature to expand horizons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="friends" class="hero-card hidden-section">
+            <div class="info-column full-width text-center">
+                <span class="university-tag">Best Friend & Teammate</span>
+                <h1 class="user-name">Friends</h1>
+                
+                <div class="friend-card-content-large">
+                    <div class="friend-photos-grid">
+                        <img src="friend1.jpg" alt="Ayazhan and Balnur photo 1" class="shared-photo" onerror="this.src='https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500'">
+                        <img src="friend2.jpg" alt="Ayazhan and Balnur photo 2" class="shared-photo" onerror="this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500'">
+                    </div>
+
+                    <div class="friend-text-box">
+                        <h2>My Soulmate & Partner in Crime 🌸</h2>
+                        <p class="user-bio">
+                            Ever since our 1st year, my amazing friend Ayazhan and I have been doing all our group projects and university assignments together! We always work hard side by side and consistently get the highest scores. All our brightest university moments and achievements are the result of our strong teamwork! ✨
+                        </p>
+
+                        <a href="https://youtube.com/shorts/Tz8qyCKa01o?si=RLAMjOqoi4_MPEoV" target="_blank" class="youtube-btn">
+                            <svg class="yt-icon" viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"></path><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor"></polygon></svg>
+                            <span>Watch Our YouTube Video</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Bazarkul Balnur • Astana IT University</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.hero-card');
+            sections.forEach(sec => {
+                sec.classList.remove('active-section');
+                sec.classList.add('hidden-section');
+            });
+            const target = document.getElementById(sectionId);
+            if (target) {
+                target.classList.remove('hidden-section');
+                target.classList.add('active-section');
+            }
+        }
+    </script>
+</body>
+</html>  

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 | Table & Form Styling</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="magic-bg">
+        <div class="sparkle s1">⭐</div>
+        <div class="sparkle s2">🌸</div>
+        <div class="sparkle s3">✨</div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-brand">Balnur.dev</div>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="tasks.html" style="color: #7e22ce; font-weight: 700;">Task Hub</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <section class="hero-card" style="max-width: 850px; width: 100%;">
+            
+            <div class="text-center" style="margin-bottom: 10px;">
+                <span class="university-tag">Task 4 Assignment</span>
+                <h2 id="grades-heading" style="font-family: 'Playfair Display', serif; color: #4a044e; font-size: 28px; margin-top: 5px;">
+                    Student Grades & Performance
+                </h2>
+                <p style="color: #7e22ce; font-size: 13.5px; margin-bottom: 20px;">
+                    A structured table showcasing student academic records with custom CSS styling.
+                </p>
+            </div>
+
+            <div style="overflow-x: auto; margin-bottom: 40px;">
+                <table class="custom-grades-table">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2" style="font-weight: 600;">Balnur Muxankizi</td>
+                            <td>Web Technologies</td>
+                            <td>95</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr>
+                            <td>Discrete Math</td>
+                            <td>88</td>
+                            <td>Good</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 600;">Ayazhan S.</td>
+                            <td>Web Technologies</td>
+                            <td>96</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td style="font-weight: 600;">Dias K.</td>
+                            <td>Database Management</td>
+                            <td>90</td>
+                            <td>Passed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #e9d5ff; margin: 30px 0;">
+
+            <div class="task-form-wrapper">
+                <h3 id="form-heading" class="form-title">Student Feedback Form</h3>
+                
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="student-name">Full Name:</label>
+                        <input type="text" id="student-name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="student-email">Email Address:</label>
+                        <input type="email" id="student-email" name="email" placeholder="name@astanaitt.edu.kz" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-role">Select Role:</label>
+                        <select id="user-role" name="role">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Did you find this website helpful?</label>
+                        <div class="radio-options">
+                            <label><input type="radio" name="helpful" value="yes" checked> Yes</label>
+                            <label><input type="radio" name="helpful" value="no"> No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-comments">Comments / Feedback:</label>
+                        <textarea id="user-comments" name="comments" placeholder="Write your thoughts here..."></textarea>
+                    </div>
+
+                    <button type="submit" id="submit-btn-id" class="submit-btn-class">Submit Feedback</button>
+                </form>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="tasks.html" class="secondary-link-btn">← Back to Task Hub</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Bazarkul Balnur • Astana IT University</p>
+    </footer>
+
+</body>
+</html>
